@@ -1,0 +1,7 @@
+Breakpoint 1 at 0x4011eb: file bb.cpp, line 9.[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+
+Breakpoint 1, maxCoins (nums=std::vector of length 4, capacity 4 = {...}) at bb.cpp:9
+warning: Source file is more recent than executable.
+9	    int n = nums.size();        
+[GPTREPORT]nums = std::vector of length 4, capacity 4 = {3, 1, 5, 8}
